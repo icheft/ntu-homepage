@@ -80,39 +80,27 @@ p {
 }
 
 .intro a {
+  border-bottom: 3px solid transparent;
   text-decoration: none;
-  color: #edf1f5;
-  position: relative;
-}
-.intro a:after {
-  content: "";
-  color: #203952;
-  position: absolute;
-  z-index: -1;
-  top: 90%;
-  left: -0.1em;
-  right: -0.1em;
-  bottom: 0;
-  transition: top 200ms cubic-bezier(0, .8, .13, 1);
-  background-color: rgba(237, 218, 11, 0.879);
-}
-.intro a:hover:after {
-  top: 0%;
-}
-.intro a:hover {
-  color: #203952;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+  color: #fef8e1;
+  font-weight: 500;
 }
 
+.intro a:hover {
+  border-bottom: 1.2px solid #ebac0d;
+}
 
 
 .footer {
-	color: #999;
+	color: rgb(255, 255, 255);
 	text-align: center;
 	margin: 3rem;
 }
 
 .footer a {
-	color: #999;
+	color: rgb(255, 255, 255);
 	padding: 5px;
 	text-decoration: none;
 }
