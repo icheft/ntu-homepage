@@ -31,4 +31,4 @@ Here are some resources you might find useful upon re-creating the site:
 + [mojs](https://mojs.github.io)
 
 
-The idea came from [Evan You's site](http://evanyou.me). Go check it out. 
+The original idea came from [Evan You's site](http://evanyou.me). 
