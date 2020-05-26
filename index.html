@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rubik:300,500,700" rel="stylesheet">
 
     
@@ -28,7 +29,7 @@
         <p style="font-weight:500; font-size:2.2em">
           I am Brian L. Chen.
         </p>
-        <p>
+        <p data-aos="fade-right">
           🇭🇰🇹🇼👨🏾‍🎓 <br> I am currently a freshman pursuing a bachelor degree in 
           <a href="https://management.ntu.edu.tw/en/IM" target="_blank">Information Management</a> 
           at <a href="https://www.ntu.edu.tw/english/index.html" target="_blank">National Taiwan 
@@ -36,18 +37,17 @@
           I previously went to The Chinese University of Hong Kong majoring in 
           Computer Science. 
         </p>
-
-        <p>
+        <p data-aos="fade-right">
           📚🧑🏾‍💻🏋🏾‍♂️💪🏾🎾📖🏊🏾‍♂️🚴🏾‍🏃🏾‍♂️🏈<br>
           Besides studying and programming, I like working out, bodyweight training, playing tennis, reading books, 
           self-learning, swimming, cycling, running, playing and watching American football.
         </p>
-        <p>
+        <p data-aos="fade-right">
           You may have guessed it, I like doing sports in general. I am in the college-wide 
           tennis team, department-wide swimming team, badminton team, and volleyball team.
         </p>
         
-        <p>
+        <p data-aos="fade-right">
           💁🏾‍♂️☎️<br>
           If you want to know more about me, please visit 
           <a href="https://icheft.github.io/menu/about" target="_blank">here</a>. 
@@ -59,13 +59,14 @@
 
 
       </div>
-      <div class="d-flex justify-content-center">
+      <div class="d-flex justify-content-center" data-aos="zoom-out">
         <div class="btn-group mt-2 mb-4" role="group" aria-label="actionButtons">
           <a href="assets/doc/2020-05-06-cv.pdf" target="_blank" class="d-block btn btn-outline-light">Download My CV<i class="far fa-id-badge ml-2"></i></a>
           <a href="https://icheft.github.io/" target="_blank" class="d-block btn btn-outline-light">Visit My Official Website<i class="fas fa-external-link-square-alt ml-2"></i></a>
         </div>
       </div>
-      <div class="d-flex justify-content-center">
+      
+      <div class="d-flex justify-content-center" data-aos="fade-up">
           <div class="social-icons spinned">
             <a class="item linkedin" href="https://www.linkedin.com/in/brianlhchen/" target="_blank"><i class="fab fa-linkedin"></i></a>
             <a class="item github" href="https://github.com/icheft" target="_blank"><i class="fab fa-github"></i></a>
@@ -77,14 +78,18 @@
       </div>
    </div>
 
-   <footer class="footer">
+   <footer class="footer" data-aos="fade-up">
      &copy; <script>document.write(new Date().getFullYear());</script> Brian L. Chen. All rights reserved.<br>
      <span style="font-size:0.8em">Source code of this site is held on <a href="https://github.com/icheft/ntu-homepage" target="_blank">GitHub</a> <i class="fas fa-heart" style="color: red"></i> by <a href="https://github.com/icheft" target="_blank">@icheft</a>.</span>
    </footer>
   
   
 
-  
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
   <script src="https://cdn.jsdelivr.net/mojs/0.265.6/mo.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/mojs-player/0.43.15/mojs-player.min.js"></script>

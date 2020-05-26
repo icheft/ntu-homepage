@@ -29,6 +29,7 @@ Here are some resources you might find useful upon re-creating the site:
 + [Spinning social media icons](http://yolyfie.com/spinning-social-media-icons/)
 + [Pure CSS Gradient Background Animation](https://codepen.io/P1N2O/pen/pyBNzX)
 + [mojs](https://mojs.github.io)
++ [aos](https://github.com/michalsnik/aos)
 
 
 The original idea came from [Evan You's site](http://evanyou.me).
