@@ -3,7 +3,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4e6d221b-aed0-41ca-adb9-aab8ab2147b0/deploy-status)](https://app.netlify.com/sites/icheftatntu/deploys)
 
-![Image](https://i.imgur.com/EIGdhRY.png)
+![Image](https://i.imgur.com/zX2NCNu.png)
 
 This is a really simple site built for my NTU homepage at <http://homepage.ntu.edu.tw/~b07705031/>.
 
