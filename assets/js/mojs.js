@@ -75,7 +75,7 @@ const OPTS = {
     isShowEnd:  false,
   });
 
-  document.addEventListener( 'click', function (e) {
+  document.addEventListener( 'mouseover', function (e) {
 
     burst
     .tune({ x: e.pageX, y: e.pageY })
