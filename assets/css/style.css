@@ -94,17 +94,94 @@ p {
 
 
 .footer {
-	color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  font-size: 0.8rem;
 	text-align: center;
 	margin: 3rem;
 }
 
 .footer a {
-	color: rgb(255, 255, 255);
-	padding: 5px;
+  color: #fff8c6;
+  font-weight: 700;
 	text-decoration: none;
 }
 
 .footer a:hover {
-	color: #333;
+	color: #fff082;
+}
+
+.social-icons {
+  font-size: 1.7em;
+}
+
+.social-icons .item {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 42px;
+  border-radius: 50px;
+  margin: 5px;
+  transition: .3s all;
+  position: relative;
+  -webkit-transition: .3s all;
+  text-align: center;
+  color: #fff;
+  -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);
+  -moz-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);
+  box-shadow: 0px 5px 11px 0px rgba(0,0,0,0.18), 0px 4px 15px 0px rgba(0,0,0,0.15);
+}
+
+.social-icons.spinned .item:hover {
+  -webkit-animation: Social-Icons-Flipping .3s;
+  animation: Social-Icons-Flipping .3s
+}
+
+.social-icons .item:hover {
+  text-decoration: none;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 -1px 0 transparent inset, 0 2px 3px rgba(0, 0, 0, .1), 0 4px 8px rgba(0, 0, 0, .3);
+  color: rgb(245, 114, 0);
+}
+
+.social-icons .linkedin:hover {
+  background-color: #f9faff!important;
+  color: #0072b1!important;
+}
+
+.social-icons .github:hover {
+  background-color: rgb(41, 47, 58)!important;
+  color: rgb(34, 141, 255)!important;
+}
+
+.social-icons .instagram:hover {
+  background-color: rgb(226, 200, 249)!important;
+  color: rgb(255, 58, 225)!important;
+}
+
+.social-icons .facebook:hover {
+  background-color: #4267B2!important;
+  color: #fff!important;
+}
+
+
+
+@-webkit-keyframes Social-Icons-Flipping {
+  0% {
+      -webkit-transform: rotate(0);
+      transform: rotate(0)
+  }
+  100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg)
+  }
+}
+@keyframes Social-Icons-Flipping {
+  0% {
+      -webkit-transform: rotate(0);
+      transform: rotate(0)
+  }
+  100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg)
+  }
 }
