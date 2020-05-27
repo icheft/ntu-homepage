@@ -59,8 +59,6 @@ body {
   width: 670px;
 }
 
-/*48em*/
-
 @media (max-width: 768px) {
   .container {
     width: 90vw;
