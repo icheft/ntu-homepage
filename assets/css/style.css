@@ -110,6 +110,10 @@ p {
 	color: #fff082;
 }
 
+.footer .click-counter {
+  font-size:0.8em;
+}
+
 .social-icons {
   font-size: 1.7em;
 }
