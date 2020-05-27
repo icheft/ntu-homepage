@@ -196,3 +196,20 @@ p {
       transform: rotate(360deg)
   }
 }
+
+/*
+Loader
+Source: https://smallenvelop.com/display-loading-icon-page-loads-completely/
+*/
+
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.pre-gif {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(/assets/img/ping-pong.gif) center no-repeat #fff;
+}

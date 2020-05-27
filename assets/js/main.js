@@ -1,3 +1,7 @@
+$(window).on('load', function(){  // Animate loader off screen
+    $(".pre-loader").fadeOut("slow");;
+});
+
 const clickCounter = document.querySelector('.footer .click-counter');
 let clickCnt = 0;
 
