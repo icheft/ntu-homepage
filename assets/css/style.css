@@ -112,6 +112,13 @@ p {
 
 .footer .click-counter {
   font-size:0.8em;
+  color: #ffffff4d;
+}
+.footer .click-counter a{
+  color: #ffffff6c;
+}
+.footer .click-counter a:hover{
+  color: #fff082;
 }
 
 .social-icons {
