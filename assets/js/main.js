@@ -31,6 +31,3 @@ function showClicks () {
 
 //event listeners
 document.addEventListener("click", logClick);
-
-
-
