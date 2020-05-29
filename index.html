@@ -29,6 +29,7 @@
     </script>
   </head>
   <body>
+    <div id="particle-container"></div>
     <div class="container">
       <div class="intro">
         <h1>Hello <span class="wave">👋🏾</span></h1>
@@ -65,8 +66,8 @@
       
       <div class="d-flex justify-content-center" data-aos="zoom-out">
         <div class="btn-group mt-2 mb-4" role="group" aria-label="actionButtons">
-          <a href="assets/doc/2020-05-06-cv.pdf" target="_blank" class="d-block btn btn-outline-light">Download My CV<i class="far fa-id-badge ml-2"></i></a>
-          <a href="https://icheft.github.io/" target="_blank" class="d-block btn btn-outline-light">Visit My Official Website<i class="fas fa-external-link-square-alt ml-2"></i></a>
+          <a id="btn-outline1" href="assets/doc/2020-05-06-cv.pdf" target="_blank" class="d-block btn btn-outline-dark" >Download My CV<i class="far fa-id-badge ml-2"></i></a>
+          <a id="btn-outline2" href="https://icheft.github.io/" target="_blank" class="d-block btn btn-outline-dark" >Visit My Official Website<i class="fas fa-external-link-square-alt ml-2"></i></a>
         </div>
       </div>
       
@@ -80,18 +81,30 @@
           </div>
         
       </div>
-   </div>
 
    <footer class="footer">
      &copy; <script>document.write(new Date().getFullYear());</script> Brian L. Chen. All rights reserved.<br>
      <span style="font-size:0.8em">Source code of this site is held on <a href="https://github.com/icheft/ntu-homepage" target="_blank">GitHub</a> <i class="fas fa-heart" style="color: red"></i> by <a href="https://github.com/icheft" target="_blank">@icheft</a>.</span> <br>
-   </footer>
-  
+     <div class="d-flex justify-content-center">
+      <div class="theme-switch-wrapper">
+         <label class="theme-switch" for="checkbox">
+           <input type="checkbox" id="checkbox" />
+           <div class="slider round"></div>
+         </label> <em id="dark-mode-prompt">Light Mode On</em>
+       </div>
+    </div>
+    </footer>
+  </div>
   
 
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();
+  </script>
+  <script>
+var confettiSettings = { target: 'my-canvas' };
+var confetti = new ConfettiGenerator(confettiSettings);
+confetti.render();
   </script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
@@ -99,7 +112,9 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/mojs/0.265.6/mo.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/mojs-player/0.43.15/mojs-player.min.js"></script>
-  <script src="assets/js/mojs.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <!-- <script src="assets/js/mojs.js"></script> -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/particle-script.js"></script>
 </body>
 </html>

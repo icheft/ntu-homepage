@@ -36,6 +36,7 @@ Here are some resources you might find useful upon re-creating the site:
 + [Pure CSS Gradient Background Animation](https://codepen.io/P1N2O/pen/pyBNzX)
 + [mojs](https://mojs.github.io)
 + [aos](https://github.com/michalsnik/aos)
++ [Dark/Light Toggle](https://dev.to/ananyaneogi/create-a-dark-light-mode-switch-with-css-variables-34l8)
 
 
 I got the inspiration from [Evan You's site](http://evanyou.me).
