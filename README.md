@@ -43,6 +43,7 @@ Here are some resources you might find useful upon re-creating the site:
 + [Dark/Light Toggle](https://dev.to/ananyaneogi/create-a-dark-light-mode-switch-with-css-variables-34l8)
 + [particle.js](https://gist.github.com/icheft/f409d819ce151490c75cb9b67d1716eb)
 + [Waving hand animation](https://jarv.is/notes/css-waving-hand-emoji/)
++ [Typed js](https://github.com/mattboldt/typed.js/)
 
 
 I got the inspiration from [Evan You's site](http://evanyou.me).
