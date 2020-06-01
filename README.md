@@ -1,7 +1,7 @@
 # @icheft's NTU Homepage
 (might as well be the simple one-page site I am going to use in the future ❤)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/4e6d221b-aed0-41ca-adb9-aab8ab2147b0/deploy-status)](https://app.netlify.com/sites/icheftatntu/deploys) [![GitHub](https://img.shields.io/github/license/icheft/ntu-homepage)](https://github.com/icheft/ntu-homepage/blob/master/LICENSE) ![Maintenance](https://img.shields.io/maintenance/yes/2020?color=orange) [![Website](https://img.shields.io/website?down_message=offline&up_color=lime&url=http%3A%2F%2Fhomepage.ntu.edu.tw%2F~b07705031%2F)](http://homepage.ntu.edu.tw/~b07705031/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4e6d221b-aed0-41ca-adb9-aab8ab2147b0/deploy-status)](https://app.netlify.com/sites/icheftatntu/deploys) [![GitHub](https://img.shields.io/github/license/icheft/ntu-homepage)](https://github.com/icheft/ntu-homepage/blob/master/LICENSE) ![Maintenance](https://img.shields.io/maintenance/yes/2020?color=orange) [![Website](https://img.shields.io/website?down_message=offline&up_color=lime&url=http%3A%2F%2Fhomepage.ntu.edu.tw%2F~b07705031%2F)](http://homepage.ntu.edu.tw/~b07705031/) 
 
 ## Preview
 
@@ -24,6 +24,10 @@ Feel free to fork the website and create your own one. If you have any questions
 
 
 + Alternatively, you can deploy it using Netlify as shown [here](https://app.netlify.com/sites/icheftatntu/deploys); the demo can be viewed [here](https://icheftatntu.netlify.app). For those who are not familiar with Netlify, please as well read their [documentations](https://www.netlify.com).
+
++ One more alternative is to deploy it to Vercel under the `now.sh` domain. You can start your own site by clicking this button:   
+  [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/project?template=https://github.com/icheft/ntu-homepage)  
+  Here are some domains used by the project: [`icheft`](https://icheft.now.sh), [`brianlchen`](https://brianlchen.now.sh), [`ntu-homepage`](https://ntu-homepage.now.sh)
 
 + For local build, click on `index.html` and you'll be able to see site locally. 
 

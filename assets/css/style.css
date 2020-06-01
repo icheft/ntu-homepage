@@ -153,11 +153,15 @@ p {
 }
 
 .social-icons .item {
+  position:relative;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+  border-radius:50%;
   display: inline-block;
   width: 40px;
   height: 40px;
   line-height: 42px;
-  border-radius: 50%;
+
   margin: 0.2em;
   transition: .3s all;
   position: relative;
@@ -257,6 +261,7 @@ span.wave:hover {
   align-items: center;
 }
 .theme-switch-wrapper em {
+  font-family: 'Mansalva', cursive;
   margin-left: 5px;
   padding-bottom: 7px;
   font-size: 0.8em;
