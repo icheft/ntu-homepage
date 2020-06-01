@@ -44,9 +44,16 @@ Here are some resources you might find useful upon re-creating the site:
 + [particle.js](https://gist.github.com/icheft/f409d819ce151490c75cb9b67d1716eb)
 + [Waving hand animation](https://jarv.is/notes/css-waving-hand-emoji/)
 + [Typed js](https://github.com/mattboldt/typed.js/)
++ [Terminal Window](https://codeeverywhere.ca/post.php?id=10)
 
 
 I got the inspiration from [Evan You's site](http://evanyou.me).
+
+## Pending Features
++ Interactive Terminal
++ Landing/redirect page
++ 3D Perspective menu (still remain in one-page design)
+  + Comments
 
 
 ## License
